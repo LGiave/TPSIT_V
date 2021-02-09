@@ -1,22 +1,36 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="..\static\styles.css" type="text/css">
-    </head>
-    <body>
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
-        
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
-        
-            <button type="submit">Login</button>
-            <label>
-              <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-          </div>
-        <script>
-        
-        </script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .btn {
+  background-color: #ffffff; /* Green */
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid #00ff9d;
+  border-radius: 12px;
+}
+.btn:hover {
+  background-color: #9fdaa1; /* Green */
+  color: white;
+}
+        body {background-color: rgb(255, 255, 255);}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <button type="submit" class="btn" value="avanti" name="btn">avanti</button> <br>
+    <button type="submit" class="btn" value="indietro" name="btn">indietro</button> <br>
+    <button type="submit" class="btn" value="destra" name="btn">destra</button> <br>
+    <button type="submit" class="btn" value="sinistra" name="btn">sinistra</button>
+    <br> <br> <br>
+    <button type="submit" class="btn" name="finish" value="1">STOP</button>
+</body>
 </html>
